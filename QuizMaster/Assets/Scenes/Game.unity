@@ -359,6 +359,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261759721}
   m_CullTransparentMesh: 1
+--- !u!1 &266787568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+  m_PrefabInstance: {fileID: 802251753}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &270399801
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,6 +374,14 @@ PrefabInstance:
     - target: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Name
       value: AnswerButton (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6842230775380956600, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Pivot.x
@@ -471,6 +484,14 @@ PrefabInstance:
     - target: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Name
       value: AnswerButton (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6842230775380956600, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Pivot.x
@@ -602,7 +623,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -180}
-  m_SizeDelta: {x: 1200, y: 430}
+  m_SizeDelta: {x: 1700, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &518457619
 MonoBehaviour:
@@ -622,7 +643,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: -10
+  m_Spacing: -25
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 1
@@ -917,6 +938,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &671123318 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+  m_PrefabInstance: {fileID: 8693993129521839499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &689118602
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1029,14 @@ PrefabInstance:
     - target: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Name
       value: AnswerButton (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6842230775380956600, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Pivot.x
@@ -1107,6 +1141,7 @@ GameObject:
   - component: {fileID: 982383493}
   - component: {fileID: 982383492}
   - component: {fileID: 982383491}
+  - component: {fileID: 982383495}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -1197,6 +1232,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &982383495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982383490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5e976e94d856a43b45052d465ccddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questiontext: {fileID: 632648319}
+  question: {fileID: 11400000, guid: a0651adecc94b1543a986eadd28612cc, type: 2}
+  answerButtons:
+  - {fileID: 671123318}
+  - {fileID: 1466435845}
+  - {fileID: 1558676224}
+  - {fileID: 266787568}
 --- !u!1 &1464225089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,6 +1327,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1464225089}
   m_CullTransparentMesh: 1
+--- !u!1 &1466435845 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+  m_PrefabInstance: {fileID: 270399801}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1511953347
 GameObject:
   m_ObjectHideFlags: 0
@@ -1375,6 +1434,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1558676224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+  m_PrefabInstance: {fileID: 463739297}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8693993129521839499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1385,6 +1449,14 @@ PrefabInstance:
     - target: {fileID: 6304054260178966977, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Name
       value: AnswerButton (0)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6442344818021050098, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6842230775380956600, guid: 7fcbd2bf39e2e4941b17e39c4574e2e7, type: 3}
       propertyPath: m_Pivot.x

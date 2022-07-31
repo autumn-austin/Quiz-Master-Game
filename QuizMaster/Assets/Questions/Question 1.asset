@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24a4bd82e71eae04c87901beddff9436, type: 3}
+  m_Name: Question 1
+  m_EditorClassIdentifier: 
+  question: What is C#?
+  answers:
+  - C# is a general-purpose, multi-paradigm programming language.
+  - C#  is the standard markup language for documents designed to be displayed in
+    a web browser.
+  - C# is a programming language that is one of the core technologies of the World
+    Wide Web, alongside HTML and CSS.
+  - C# is a domain-specific language used in programming and designed for managing
+    data held in a relational database management system, or for stream processing
+    in a relational data stream management system.
